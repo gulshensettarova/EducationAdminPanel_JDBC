@@ -2,6 +2,7 @@ package org.example.dao.model;
 
 import lombok.*;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Getter
@@ -13,7 +14,7 @@ public class Student {
     private int id;
     private String studentName;
     private String studentSurname;
-    private Date studentBirthdate;
+    private LocalDate studentBirthdate;
     private int studentGroupId;
     private boolean isActive;
 }
